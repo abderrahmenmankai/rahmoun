@@ -1,21 +1,73 @@
 <!DOCTYPE html>
 <html>
-<head>
-	<title>My First Page Html</title>
-	<link rel="stylesheet" type="text/css" href="css/style.css">
-	<link rel="icon"  href="res/headlogo.png">
-</head>
-<body>
-	<!--------start nav bar----------------->
+	<head>
+		<title>My First Page Html</title>
+		<link rel="stylesheet" type="text/css" href="css/style.css">
+		<link rel="icon"  href="res/headlogo.png">
+        <meta charset="utf-8"/>
+        <meta name="viewport" content="width=device-width,initial-scale=1.0"/>
+	</head>
+	<body>
+		<!---------------------------------------Header Container------------------------------------------------->
+		<div class="headerContainer">
+			<header>
+				<a href="index.html"><img src="res/logo-gmc.png" style="height: 40px;" alt="logo" class="logo"></a>
+				<nav class="navBar">
+					<ul>
+				    	<li><a href="index.html">HOME</a></li>
+				    	<li><a href="courses.html">COURSES</a></li>
+				    	<li><a href="Contact.html">CONTACT</a></li>
+			   		</ul>
+			   	</nav>
+			</header>
+		</div>
 
-	<ul>
-    	<a href="index.html"</a><li>Home</li>
-    	<a href="courses.html"</a><li>Courses</li>
-    	<a href="Contact.html"</a><li>Contact</li>
+		<!---------------------------------------Slideshow Container---------------------------------------------->
 
-    	
-    </ul>
-    
+		<section id="slideshow_container" >
+			<div class="slideshow">
+				<div class="slideshow_img">
+					<ul>
 
-</body>
+						<li><img src="res/slide1.png" style="width: 100%; height: 600px"></li>
+						<li><img src="res/slide2.png" style="width: 100%; height: 600px" ></li>
+						<li><img src="res/slide3.jpeg" style="width: 100%; height: 600px" ></li>
+					</ul>
+					
+				</div>
+
+				<div class="control_buttons">
+					<a href="#" class="prev">Previous</a>
+					<a href="#" class="next">Next</a> 
+				</div>
+
+			</div>
+
+			
+		</section>
+
+		<!--------------------------------------------------------Courses Container---------------------------------------------------->
+
+		<section id="courses_container">
+
+		</section>
+
+		<!--------------------------------------------------------About Container---------------------------------------------------->
+
+		<section id="moreabout_container">
+			<div class="moreabout">
+				<header>
+					<h1>More About GoMyCode</h1>
+				</header>
+				<div class="video">
+					<iframe width="600" height="350" src="https://www.youtube.com/embed/MkLog_27S6U"></iframe>
+				</div>
+
+				
+			</div>	
+		</section>
+
+	    
+
+	</body>
 </html>

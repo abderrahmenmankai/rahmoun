@@ -1,36 +1,48 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <title></title>
-    </head>
+		<title>My First Page Html</title>
+		<link rel="stylesheet" type="text/css" href="css/style.css">
+		<link rel="icon"  href="res/headlogo.png">
+        <meta charset="utf-8"/>
+        <meta name="viewport" content="width=device-width,initial-scale=1.0" />
+	</head>
     <body>
-		<ul>
-	    	<a href="index.html"><li>Home</li></a>
-	    	<a href="courses.html"><li>Courses</li></a>
-	    	<a href="Contact.html"><li>Contact</li></a>   	
-   		</ul>
-   		<center><h1>courses</h1></center>
-   		<center><h2>feedback</h2></center>
-   		<form><center>
-	   		<button>B</button>
-	   		<button>I</button>
-	   		<button>Underline</button>
-	   		<select>
-	   			<option>20px</option>
-	   			<option>24px</option>
-	   			<option>26px</option>
-	   		</select>
-	   		<select>
-	   			<option>Arial</option>
-	   			<option>Calibri</option>
-	   			<option>Times New Roman</option>
-	   		</select>
-	   		<br>
-	   		<textarea cols="100" rows="20"></textarea></center>
-
-
-
-   		</form>
+		<!---------------------------------------------------------------Header Container------------------------------------------------->
+		<div class="headerContainer">
+			<header>
+				<a href="index.html"><img src="res/logo-gmc.png" style="height: 40px;" alt="logo" class="logo"></a>
+				<nav class="navBar">
+					<ul>
+				    	<li><a href="index.html">HOME</a></li>
+				    	<li><a href="courses.html">COURSES</a></li>
+				    	<li><a href="Contact.html">CONTACT</a></li>
+			   		</ul>
+			   	</nav>
+			</header>
+		</div>
+		<div class="content" align="center">
+			<div id="cover" class="cover-courses" >
+			</div>
+	   		<h1 >feedback</h1 >
+	   		<form>
+		   		<button>B</button>
+		   		<button>I</button>
+		   		<button>Underline</button>
+		   		<select>
+		   			<option>20px</option>
+		   			<option>24px</option>
+		   			<option>26px</option>
+		   		</select>
+		   		<select>
+		   			<option>Arial</option>
+		   			<option>Calibri</option>
+		   			<option>Times New Roman</option>
+		   		</select>
+		   		<br>
+		   		<textarea cols="100" rows="20"></textarea>
+	   		</form>
+   		</div>
 
     </body>
 </html>

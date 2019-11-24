@@ -1,39 +1,48 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <title></title>
-       
-    </head>
+        <title>My First Page Html</title>
+        <link rel="stylesheet" type="text/css" href="css/style.css">
+        <link rel="icon"  href="res/headlogo.png">
+        <meta charset="utf-8"/>
+        <meta name="viewport" content="width=device-width,initial-scale=1.0" />
+    </head>         
     <body>
+        <!---------------------------------------------------------------Header Container------------------------------------------------->
+        <div class="headerContainer">
+          <header>
+            <a href="index.html"><img src="res/logo-gmc.png" style="height: 40px;" alt="logo" class="logo"></a>
+            <nav class="navBar">
+              <ul>
+                  <li><a href="index.html">HOME</a></li>
+                  <li><a href="courses.html">COURSES</a></li>
+                  <li><a href="Contact.html">CONTACT</a></li>
+                </ul>
+              </nav>
+          </header>
+        </div>
+        <!---------------------------------------------------------Contact Container------------------------------------>
+        <div class="content" align="center">
+            <div id="cover" class="cover-contact">
+            </div>
+         		<form>
+         			<label>Name</label><br><input type="text" placeholder="Your Name">
+         			<br>
+         			<label>Track</label>
+         			<br>
+         			<select>
+         				<option>Web</option>
+         				<option>Mobile</option>
+         			</select>
+         			<br>
+         			<label>Email Adress</label><br><input type="Email" placeholder="Your Email" >
+         			<br>
+         			<label>Phone Number</label><br><input type="number" placeholder="Your Phone Number">
+         			<br>
+         			<button class="submit">submit</button>
 
-		<ul>
-	    	<a href="index.html"><li>Home</li></a>
-	    	<a href="courses.html"><li>Courses</li></a>
-	    	<a href="Contact.html"><li>Contact</li></a>   	
-   		</ul>
-   		<center><h1>Contact</h1></center>
-   		<br>
-   		<br>
-   		<center>
-   		<form>
-   			<label>Name</label><br><input type="text" placeholder="Your Name">
-   			<br>
-   			<label>Track</label>
-   			<br>
-   			<select>
-   				<option>Web</option>
-   				<option>Mobile</option>
-   			</select>
-   			<br>
-   			<label>Email Adress</label><br><input type="Email" placeholder="Your Email" >
-   			<br>
-   			<label>Phone Number</label><br><input type="number" placeholder="Your Phone Number">
-   			<br>
-   			<button>submit</button>
-   			<button>submit</button>
-
-   		</form>
-   	</center>
+         		</form>
+        </div>
 
     
     
