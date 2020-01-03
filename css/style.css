@@ -59,12 +59,12 @@ nav li {
 }
 nav a {
   color: #fff;
-  text-decoration: none;
-  font-size: 22px;
+  
     
 }
 nav a:hover{
 	color: #000;
+  text-decoration: none;
 }
 nav a::before {
   content: '';
@@ -72,7 +72,7 @@ nav a::before {
   height: 5px;
   background-color: #000;
   position: absolute;
-  top: 2px;
+  top: 3px;
   width: 0%;
   transition: all ease-in-out 250ms;
 }
@@ -146,13 +146,19 @@ nav a:hover::before {
     opacity: 1;
 
 }
+.modal-content {
+  position: relative;
+    display: flex;
+    flex-direction: column;
+    margin-top: 35%;
+}
 
 
 form{
   padding: 20px
 }
 form button{
-  padding: px;
+  padding: 2px;
 }
 textarea{
   margin: 15px
@@ -171,7 +177,6 @@ button{
   padding: 3px
  }
 button a{
-  text-decoration: none;
   color: black;
   font-size: 15px;
 }
