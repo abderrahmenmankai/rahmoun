@@ -8,14 +8,23 @@ body{
   background-image:linear-gradient(217deg, rgba(255,0,0,.8), rgba(255,0,0,0) 70.71%),
     linear-gradient(127deg, black, black 70.71%),
     linear-gradient(336deg, rgba(0,0,255,.8), rgba(0,0,255,0) 70.71%);
+  font-family: 'Work Sans', sans-serif;
+  line-height: 1.6
+
+
 
 }
-.headerContainer  {
+ a {
+  text-decoration: none;
+  font-size: 22px;
+    
+}
+.headerContainer1 {
   margin: 0px auto;
 
 }
 
-.logo{
+.logo1{
 	margin: 0px;
 	float: left;
 	padding:  15px;
@@ -29,30 +38,30 @@ header::after {
 
 nav{ 
 	margin: 0 auto;
-	float: right;
-
  }
- nav ul {
-  margin-right: 150px;
+nav ul {
   padding: 0;
   list-style: none;
   font-weight: bold;
+  display: flex;
+  justify-content: space-between;
+
 
 
 }
 nav li {
   display: inline-block;
-  padding-top: 18px;
+  padding-top: 14px;
   margin-left: 100px;
   position: relative;
 
-
+  
 }
 nav a {
   color: #fff;
   text-decoration: none;
   font-size: 22px;
-  font-family: 'Work Sans', sans-serif;
+    
 }
 nav a:hover{
 	color: #000;
@@ -73,24 +82,30 @@ nav a:hover::before {
 }
 
 
-.moreabout header{
+.title{
 	text-align: center;
 	color: #fff;
-  padding: 50px;
+  padding: 10px;
 }
 .video {
 	text-align: center;
 }
 
-#cover{
+#allCover{
   background-image: url(../res/webdev3.png);
-  height: 450px;
-  line-height: 450px;
+  background-position: center;
+  background-size: cover;
+  height: 400px;
+  width: 100%;
+  line-height: 220px;
+  padding: 80px 0px;
+
 
 }
 .cover-courses::before{
   content: 'Courses';
-  font-size: 70px;
+  font-size: 100px;
+  text-shadow: 5px 2px rgb(12, 11, 11);
   color: white;
   display: inline-block;
   vertical-align: middle;
@@ -98,18 +113,41 @@ nav a:hover::before {
   }
   .cover-contact::before{
   content: 'Contact';
-  font-size: 70px;
-  color: white;
+  font-size: 100px;
+  text-shadow: 5px 2px rgb(12, 11, 11);  color: white;
   display: inline-block;
   vertical-align: middle;
-
-  }
-  .cover-contact::before{
-  content: 'Contact';
-  font-size: 70px;
   color: white;
 
   }
+  .allCourses{
+    margin: 40px 0px;
+    
+  }
+  .coursesItem{
+    display: inline-block;
+    margin: 20px 20px;
+    background-size: cover;
+    overflow:hidden;
+  }
+  .coursesItem:hover{
+    background-color:black;
+    opacity: 0.5;
+  }
+  .btnCourses{
+    margin-top:90px;
+    margin-left: 120px;
+    display:none;
+    opacity: 0;
+
+}
+.btnCoursesHover{
+    display:block;
+    opacity: 1;
+
+}
+
+
 form{
   padding: 20px
 }
@@ -129,3 +167,11 @@ label{
 color: white;
 margin:  20px;
  }
+button{
+  padding: 3px
+ }
+button a{
+  text-decoration: none;
+  color: black;
+  font-size: 15px;
+}

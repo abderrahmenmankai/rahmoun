@@ -3,48 +3,51 @@
     <head>
         <title>My First Page Html</title>
         <link rel="stylesheet" type="text/css" href="css/style.css">
-        <link rel="icon"  href="res/headlogo.png">
-        <meta charset="utf-8"/>
+        <link rel="icon" href="res/headlogo.png">
+        <meta charset="utf-8" />
         <meta name="viewport" content="width=device-width,initial-scale=1.0" />
-    </head>         
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.0.0/jquery.min.js"></script>
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+        
+
+
+    </head>       
     <body>
-        <!---------------------------------------------------------------Header Container------------------------------------------------->
-        <div class="headerContainer">
-          <header>
-            <a href="index.html"><img src="res/logo-gmc.png" style="height: 40px;" alt="logo" class="logo"></a>
-            <nav class="navBar">
-              <ul>
-                  <li><a href="index.html">HOME</a></li>
-                  <li><a href="courses.html">COURSES</a></li>
-                  <li><a href="Contact.html">CONTACT</a></li>
-                </ul>
-              </nav>
-          </header>
-        </div>
-        <!---------------------------------------------------------Contact Container------------------------------------>
-        <div class="content" align="center">
-            <div id="cover" class="cover-contact">
+            <!---------------------------------------------------------------Header Container------------------------------------------------->
+            <div class="headerContainer1">
+              <header>
+                <a href="index.html"><img src="res/logo-gmc.png" style="height: 60px;" alt="logo" class="logo1"></a>
+                <nav class="navBar1" style=" display: flex;flex-direction: row;justify-content: center">
+                  <ul>
+                      <li><a href="index.html">HOME</a></li>
+                      <li><a href="courses.html">COURSES</a></li>
+                      <li><a href="contact.html">CONTACT</a></li>
+                    </ul>
+                  </nav>
+              </header>
             </div>
-         		<form>
-         			<label>Name</label><br><input type="text" placeholder="Your Name">
-         			<br>
-         			<label>Track</label>
-         			<br>
-         			<select>
-         				<option>Web</option>
-         				<option>Mobile</option>
-         			</select>
-         			<br>
-         			<label>Email Adress</label><br><input type="Email" placeholder="Your Email" >
-         			<br>
-         			<label>Phone Number</label><br><input type="number" placeholder="Your Phone Number">
-         			<br>
-         			<button class="submit">submit</button>
-
-         		</form>
+            <!---------------------------------------------------------Contact Container------------------------------------>
+            <div class="content" align="center">
+                <div id="allCover" class="cover-contact">
+                </div>
+             		<form>
+             			<label>Name</label><br><input type="text" placeholder="Your Name">
+             			<br>
+             			<label>Track</label>
+             			<br>
+             			<select>
+             				<option>Web</option>
+             				<option>Mobile</option>
+             			</select>
+             			<br>
+             			<label>Email Adress</label><br><input type="Email" placeholder="Your Email" >
+             			<br>
+             			<label>Phone Number</label><br><input type="number" placeholder="Your Phone Number">
+                    <br>
+             	<button class="submit">submit</button>
+            </form>
         </div>
-
-    
-    
     </body>
 </html>

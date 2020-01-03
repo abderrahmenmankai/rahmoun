@@ -1,48 +1,104 @@
 <!DOCTYPE html>
 <html>
     <head>
-		<title>My First Page Html</title>
-		<link rel="stylesheet" type="text/css" href="css/style.css">
-		<link rel="icon"  href="res/headlogo.png">
-        <meta charset="utf-8"/>
+        <title>My First Page Html</title>
+        <link rel="stylesheet" type="text/css" href="css/style.css">
+        <link rel="icon" href="res/headlogo.png">
+        <meta charset="utf-8" />
         <meta name="viewport" content="width=device-width,initial-scale=1.0" />
-	</head>
-    <body>
-		<!---------------------------------------------------------------Header Container------------------------------------------------->
-		<div class="headerContainer">
-			<header>
-				<a href="index.html"><img src="res/logo-gmc.png" style="height: 40px;" alt="logo" class="logo"></a>
-				<nav class="navBar">
-					<ul>
-				    	<li><a href="index.html">HOME</a></li>
-				    	<li><a href="courses.html">COURSES</a></li>
-				    	<li><a href="Contact.html">CONTACT</a></li>
-			   		</ul>
-			   	</nav>
-			</header>
-		</div>
-		<div class="content" align="center">
-			<div id="cover" class="cover-courses" >
-			</div>
-	   		<h1 >feedback</h1 >
-	   		<form>
-		   		<button>B</button>
-		   		<button>I</button>
-		   		<button>Underline</button>
-		   		<select>
-		   			<option>20px</option>
-		   			<option>24px</option>
-		   			<option>26px</option>
-		   		</select>
-		   		<select>
-		   			<option>Arial</option>
-		   			<option>Calibri</option>
-		   			<option>Times New Roman</option>
-		   		</select>
-		   		<br>
-		   		<textarea cols="100" rows="20"></textarea>
-	   		</form>
-   		</div>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.0.0/jquery.min.js"></script>
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+        
 
+    </head>
+    <body>
+        <!---------------------------------------------------------------Header Container------------------------------------------------->
+        <div class="headerContainer1">
+            <header>
+                <a href="index.html"><img src="res/logo-gmc.png" style="height: 60px;" alt="logo" class="logo1"></a>
+                <nav class="navBar1" style=" display: flex;flex-direction: row;justify-content: center">
+                    <ul>
+                        <li><a href="index.html">HOME</a></li>
+                        <li><a href="courses.html">COURSES</a></li>
+                        <li><a href="contact.html">CONTACT</a></li>
+                    </ul>
+                </nav>
+            </header>
+        </div>
+        <div class="content" align="center">
+            <div id="allCover" class="cover-courses"></div>
+            <div class="modal" id="myModal">
+              <div class="modal-dialog">
+                <div class="modal-content">
+
+                  <!-- Modal Header -->
+                  <div class="modal-header">
+                    <h4 class="modal-title">GoMyCode Track</h4>
+                    <button type="button" class="close" data-dismiss="modal">&times;</button>
+                  </div>
+
+                  <!-- Modal body -->
+                  <div class="modal-body">
+                    This is a GoMyCode Track. <br>
+                                Each track has its own goal. <br>
+                                By adopting this track, you chose your own goal.
+                  </div>
+
+
+
+                </div>
+              </div>
+            </div>
+            <div class="allCourses" >
+                 <div style="background-image: url('res/Objet dynamique vectoriel.png');height: 200px;width: 320px" class="coursesItem">
+                    <button  class="btnCourses" type="button"  data-toggle="modal" data-target="#myModal">View more</button>
+                </div>
+                 <div style="background-image: url('res/Objet dynamique vectoriel1.png');height: 200px;width: 320px" class="coursesItem">
+                    <button  class="btnCourses" type="button"  data-toggle="modal" data-target="#myModal">View more</button>
+                </div>            
+                 <div style="background-image: url('res/Objet dynamique vectoriel2.png');height: 200px;width: 320px" class="coursesItem">
+                    <button  class="btnCourses" type="button"  data-toggle="modal" data-target="#myModal">View more</button>
+                </div>            
+                 <div style="background-image: url('res/Objet dynamique vectoriel3.png');height: 200px;width: 320px" class="coursesItem">
+                    <button  class="btnCourses" type="button"  data-toggle="modal" data-target="#myModal">View more</button>
+                </div>
+                 <div style="background-image: url('res/Objet dynamique vectoriel4.png');height: 200px;width: 320px" class="coursesItem">
+                    <button  class="btnCourses" type="button"  data-toggle="modal" data-target="#myModal">View more</button>
+                </div> 
+                 <div style="background-image: url('res/Objet dynamique vectoriel5.png');height: 200px;width: 320px" class="coursesItem">
+                    <button  class="btnCourses" type="button"  data-toggle="modal" data-target="#myModal">View more</button>
+                </div>
+                 <div style="background-image: url('res/Objet dynamique vectoriel6.png');height: 200px;width: 320px" class="coursesItem">
+                    <button  class="btnCourses" type="button"  data-toggle="modal" data-target="#myModal">View more</button>
+                </div>
+                <div style="background-image: url('res/Objet dynamique vectoriel8.png');height: 200px;width: 320px" class="coursesItem">
+                    <button  class="btnCourses" type="button"  data-toggle="modal" data-target="#myModal">View more</button>
+                </div>  
+                 <div style="background-image: url('res/Objet dynamique vectoriel7.png');height: 200px;width: 320px" class="coursesItem">
+                    <button  class="btnCourses" type="button"  data-toggle="modal" data-target="#myModal">View more</button>
+                </div>
+                                                                                                        
+            </div>
+            <h1>feedback</h1>
+                <button onclick="boldtext()" id="boldBtn" style="width: 25px">B</button>
+                <button onclick="italictext()" id="italicBtn" style="width: 25px">I</button>
+                <button id="underlineBtn" onclick="underlineText()" style="padding:  3px">Underline</button>
+                <select id="dropSize" onchange="changeSizeText()">
+                    <option value="20">20px</option>
+                    <option value="24">24px</option>
+                    <option value="26">26px</option>
+                </select>
+                <select id="dropFamily" onchange="changeFont (this);">
+                    <option value="Times New Roman" selected ="selected">Times New Roman</option>
+                    <option value="Arial">Arial</option>
+                    <option value="Calibri">Calibri</option>
+                </select>
+                <br>
+                <textarea id="txt"  name="message" style="width:400px; height:100px;"></textarea>
+        </div>
     </body>
+        <script src="js/javaScript.js"></script>
+        <script src="js/jquery.js"></script>
 </html>
