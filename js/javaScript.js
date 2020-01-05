@@ -1,4 +1,5 @@
 
+  
 function boldtext(){
 var getbold=document.getElementById("txt");
    
